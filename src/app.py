@@ -39,21 +39,8 @@ activities = {
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     }
-    ,
-    "Robotics Club": {
-        "description": "Design, build, and program robots for competitions and exhibitions",
-        "schedule": "Wednesdays, 4:00 PM - 6:00 PM",
-        "max_participants": 15,
-        "participants": ["alex@mergington.edu"]
-    }
-    ,
-    "Dance Club": {
-        "description": "Learn various dance styles, rehearse routines, and perform at school events",
-        "schedule": "Thursdays, 5:00 PM - 6:30 PM",
-        "max_participants": 25,
-        "participants": ["lily@mergington.edu"]
-    }
 }
+
 
 @app.get("/")
 def root():
